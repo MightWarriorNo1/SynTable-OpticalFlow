@@ -3,16 +3,6 @@
 
 This repository contains the official implementation of the paper **"SynTable: A Synthetic Data Generation Pipeline for Unseen Object Amodal Instance Segmentation of Cluttered Tabletop Scenes"**.
 
-Zhili Ng*, Haozhe Wang*, Zhengshen Zhang*, Francis Eng Hock Tay, and Marcelo H. Ang Jr.
-
-*Equal contributions
-
-[![arXiv](https://img.shields.io/badge/arXiv-2307.07333-b31b1b.svg)](https://arxiv.org/pdf/2307.07333.pdf)
-[![Dataset DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10565517.svg)](https://doi.org/10.5281/zenodo.10565517)
-[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://www.youtube.com/watch?v=zHM8H58Kn3E)
-[[Website]](https://sites.google.com/view/syntable/home)
-[[Modified UOAIS-v2]](https://github.com/ngzhili/uoais-v2?tab=readme-ov-file)
-
 
 
 ![teaser](./readme_images/teaser.png)
@@ -41,7 +31,7 @@ SynTable is a robust custom data generation pipeline that creates photorealistic
 
 3. Clone the repo 
     ``` bash
-    git clone https://github.com/ngzhili/SynTable.git
+    git clone https://github.com/MightWarriorNo1/SynTable.git
     ```
 
 4. Install Dependencies into isaac sim's python
@@ -72,7 +62,7 @@ SynTable is a robust custom data generation pipeline that creates photorealistic
     ```
 
 ## Docker Installation
-Please refer to the [README.docker.md](https://github.com/ngzhili/SynTable/blob/master/README.docker.md).
+Please refer to the [README.docker.md](https://github.com/MightWarriorNo1/SynTable/blob/master/README.docker.md).
 
 ## **Adding object models to nucleus**
 1. You can download the .USD object models to be used for generating the tabletop datasets [here](https://mega.nz/folder/1nJAwQxA#1P3iUtqENKCS66uQYXk1vg).
